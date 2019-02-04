@@ -1,0 +1,23 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "user authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "author": "sai",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "morgan": "^1.9.1",
+    "node-modules": "^1.0.1"
+  }
+}
